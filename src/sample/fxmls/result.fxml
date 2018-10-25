@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="262.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ResultController">
+   <children>
+      <TextField fx:id="resultText" alignment="TOP_CENTER" layoutX="53.0" layoutY="43.0" prefHeight="25.0" prefWidth="332.0" />
+      <ImageView fx:id="logoCopy" fitHeight="150.0" fitWidth="200.0" layoutX="136.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo/logoCopy.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
